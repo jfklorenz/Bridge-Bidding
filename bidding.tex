@@ -1,0 +1,61 @@
+\documentclass[12pt,a4paper,titlepage,xcolor=dvipsnames,bibliography=totoc, listof=totoc]{scrartcl}
+% ================================================================
+\input{pages/preamble}
+
+% ================================================================
+\begin{document}\label{Begin Document}		%	Begin Document
+% ================================================================
+\include{pages/title}\label{Titlepage}	%	Titlepage
+\cleardoublepage\pdfbookmark{\contentsname}{toc}\tableofcontents
+\newpage \label{Table of Contents}		%	Table of Contents
+% ================================================================
+
+
+% OPENING BIDS
+\section{Opening Bids}
+\input{pages/openings/overview}
+\input{pages/openings/1c}
+\input{pages/openings/1d}
+\input{pages/openings/1M}
+\input{pages/openings/1nt}
+\input{pages/openings/2c}
+\input{pages/openings/2d}
+\input{pages/openings/2M}
+\input{pages/openings/2nt}
+\input{pages/openings/3x}
+\input{pages/openings/3nt}
+\input{pages/openings/4m}
+\input{pages/openings/4M}
+
+% BIDS
+\section{Bids}
+\input{pages/bids/cuebid}
+\input{pages/bids/double}
+\input{pages/bids/double-takeout}
+\input{pages/bids/double-support}
+\input{pages/bids/double-penalty}
+
+% CONVENTIONS
+\section{Konventionen}
+\input{pages/conventions/blackwood}
+\input{pages/conventions/minorwood}
+\input{pages/conventions/spiral}
+\input{pages/conventions/jenny}
+\input{pages/conventions/ghestem}
+\input{pages/conventions/multilandy}
+\input{pages/conventions/meckwell}
+
+% MARKIERUNGEN
+\section{Markierungen}
+%\input{pages/signals/}
+
+% CONVENTION CARD
+\section{Konventionskarte}
+\input{pages/conventioncard/standard}
+\input{pages/conventioncard/mini}
+
+
+% ================================================================
+\label{End Document}
+\end{document}
+% ================================================================
